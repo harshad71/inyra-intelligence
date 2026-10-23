@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #000000;
+  --surface: #121316;
+  --surface-elevated: #17181D;
+  --border: rgba(255, 255, 255, 0.08);
+  --border-highlight: rgba(255, 255, 255, 0.15);
+  --brand-orange: #FF4500;
+  --brand-orange-light: #FF5E2A;
+  --brand-orange-dark: #E63900;
+  --foreground: #F4F4F6;
+  --foreground-muted: #A3A7B7;
+}
+
+* {
+  box-sizing: border-box;
+  border-color: var(--border);
+}
+
+html,
+body {
+  max-width: 100vw;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Safe area padding & margin utilities */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+.mb-safe {
+  margin-bottom: env(safe-area-inset-bottom, 0px);
+}
+.bottom-safe {
+  bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Scrollbar hiding utility for horizontal snap carousels */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Minimum 44px touch target utility */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Fintrixity Primary Card Surface with Hairline Top Specular Border */
+.card-fintrixity {
+  background-color: #121316;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 20px 40px -15px rgba(0, 0, 0, 0.6), inset 0 1px 0 0 rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+}
+
+/* Hero Vibrant Orange Gradient Card */
+.card-hero-orange {
+  background: linear-gradient(135deg, #FF5E2A 0%, #FF4500 50%, #E63900 100%);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 20px 40px -15px rgba(255, 69, 0, 0.45);
+  border-radius: 20px;
+}
+
+/* Elevated Input & Sub-Container Surface */
+.surface-elevated {
+  background-color: #17181D;
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 14px;
+}
+
+/* Status Badges */
+.badge-completed {
+  background-color: rgba(16, 185, 129, 0.1);
+  color: #34D399;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.badge-pending {
+  background-color: rgba(245, 158, 11, 0.1);
+  color: #FBBF24;
+  border: 1px solid rgba(245, 158, 11, 0.2);
+}
+
+.badge-active {
+  background-color: rgba(255, 94, 42, 0.12);
+  color: #FF5E2A;
+  border: 1px solid rgba(255, 94, 42, 0.25);
+}
+
+/* Custom Sleek Dark Scrollbars */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1C1D23;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #2D2F38;
+}
+
+/* Shimmer Animation */
+.btn-vibrant-orange {
+  background: linear-gradient(135deg, #FF5E2A 0%, #FF4500 100%);
+  color: #FFFFFF;
+  box-shadow: 0 10px 24px -6px rgba(255, 69, 0, 0.45), inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-vibrant-orange:hover {
+  filter: brightness(1.08);
+  box-shadow: 0 14px 28px -6px rgba(255, 69, 0, 0.6), inset 0 1px 0 0 rgba(255, 255, 255, 0.35);
+}
+
+.btn-vibrant-orange:active {
+  transform: scale(0.98);
+}
+
+/* Drawer Sliding Motion & Full Canvas Deep Blur Animations */
+@keyframes drawerSlideIn {
+  0% {
+    transform: translate3d(100%, 0, 0);
+  }
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes drawerSlideOut {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(100%, 0, 0);
+  }
+}
+
+@keyframes backdropFadeIn {
+  0% {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+  100% {
+    opacity: 1;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+}
+
+@keyframes backdropFadeOut {
+  0% {
+    opacity: 1;
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  100% {
+    opacity: 0;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+  }
+}
+
+.animate-drawer-slide-in {
+  animation: drawerSlideIn 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  will-change: transform;
+}
+
+.animate-drawer-slide-out {
+  animation: drawerSlideOut 0.26s cubic-bezier(0.4, 0, 1, 1) forwards;
+  will-change: transform;
+}
+
+.animate-backdrop-blur-in {
+  animation: backdropFadeIn 0.32s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  will-change: backdrop-filter, opacity;
+}
+
+.animate-backdrop-blur-out {
+  animation: backdropFadeOut 0.26s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  will-change: backdrop-filter, opacity;
+}
+
+/* Animated text shimmer / shine reveal effect */
+.text-shine-reveal {
+  background: linear-gradient(
+    110deg,
+    #8A8D9A 20%,
+    #FFFFFF 50%,
+    #8A8D9A 80%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  animation: textShineSweep 2.8s ease-in-out infinite;
+}
+
+@keyframes textShineSweep {
+  0% {
+    background-position: 150% 0;
+  }
+  100% {
+    background-position: -50% 0;
+  }
+}
+
+

@@ -1,0 +1,620 @@
+{
+  "run_id": "run_20261017_diag91",
+  "session_id": "ses_20261017_diag91",
+  "status": "done",
+  "stage": "done",
+  "stages": ["intake", "kb", "research", "extraction", "qualification", "buyer", "angle", "saving", "done"],
+  "progress": 100,
+  "started_at": "2026-10-17T09:45:00+05:30",
+  "finished_at": "2026-10-17T09:48:14+05:30",
+  "airtable_url": "https://airtable.com/appINyraLeadGen/tblLeads/viwCorporateHealth?filter=run_20261017_diag91",
+  "summary": "Identified 24 prime enterprise accounts across Hinjawadi, Magarpatta, and Chakan industrial corridors with recent workforce expansions. Average fit score 83/100, centered on Head of People and Admin buyers. 100% verified domains.",
+  "counts": {
+    "candidates": 86,
+    "verified": 54,
+    "qualified": 24
+  },
+  "error": null,
+  "profile": {
+    "company_name": "Apex Diagnostics & Wellness",
+    "offer": "Comprehensive On-Site Corporate Health Checkups, Executive Wellness Camps & Annual Statutory Medical Screening",
+    "target_market": "IT/ITeS enterprises, automotive OEMs, and manufacturing plants with >200 on-premise personnel in Pune and Mumbai region",
+    "geography": "Pune & Maharashtra, India",
+    "icp_hypothesis": "Tech firms with return-to-office mandates requiring wellness perks, plus factories needing mandatory Factory Act health compliance certifications",
+    "differentiators": ["NABL-accredited mobile phlebotomy fleet", "Same-day digital employee health dashboard", "Zero workplace downtime operations"],
+    "exclusions": ["Hospitals", "Third-party diagnostic chains", "Individual retail clinics"]
+  },
+  "log": [
+    { "t": "2026-10-17T09:45:05+05:30", "msg": "Intake completed: Structured profile normalized with 88% confidence" },
+    { "t": "2026-10-17T09:45:22+05:30", "msg": "KB builder assembled 16 targeted search queries across Hinjawadi Tech Parks & Chakan MIDC" },
+    { "t": "2026-10-17T09:45:48+05:30", "msg": "SERP engine returned 86 candidate enterprise domains in Maharashtra" },
+    { "t": "2026-10-17T09:46:25+05:30", "msg": "Candidate extraction verified 54 active company websites via headless crawl" },
+    { "t": "2026-10-17T09:47:12+05:30", "msg": "Batch qualification scored 24 companies above 65/100 threshold" },
+    { "t": "2026-10-17T09:47:50+05:30", "msg": "Buyer intelligence mapped HR and EHS leadership roles" },
+    { "t": "2026-10-17T09:48:10+05:30", "msg": "Generated personalized outreach hooks with recent expansion evidence" },
+    { "t": "2026-10-17T09:48:14+05:30", "msg": "Synchronized 24 qualified leads to Airtable session record" }
+  ],
+  "leads": [
+    {
+      "lead_id": "ld_corp_01",
+      "run_id": "run_20261017_diag91",
+      "company": "Kpit Technologies",
+      "website": "https://www.kpit.com",
+      "domain": "kpit.com",
+      "location": "Hinjawadi Phase 3, Pune",
+      "industry": "Automotive Software / Tech",
+      "segment": "Tier 1 Enterprise Tech (>3,000 staff)",
+      "fit_score": 94,
+      "fit_reasons": [
+        {
+          "reason": "Expanded Pune development center workforce by 850 engineers in Q2 2026",
+          "evidence_url": "https://www.kpit.com/newsroom/press-releases/expansion-pune-center",
+          "quote": "Adding over 800 engineering professionals to our global automotive software campus in Hinjawadi."
+        },
+        {
+          "reason": "Active employee wellbeing and preventative cardiac health initiative",
+          "evidence_url": "https://www.kpit.com/sustainability/people-first",
+          "quote": "Committed to comprehensive annual preventative screening for all on-campus engineering personnel."
+        }
+      ],
+      "buyer_role": "Chief People Officer / VP of Human Resources",
+      "secondary_role": "Head of Corporate Administration & Facilities",
+      "outreach_angle": "Highlight seamless on-campus executive cardiac and metabolic screening for their 850 new engineers in Phase 3 with zero code downtime.",
+      "source_urls": ["https://www.kpit.com", "https://www.kpit.com/newsroom"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:15+05:30"
+    },
+    {
+      "lead_id": "ld_corp_02",
+      "run_id": "run_20261017_diag91",
+      "company": "Bharat Forge Limited",
+      "website": "https://www.bharatforge.com",
+      "domain": "bharatforge.com",
+      "location": "Mundhwa & Chakan, Pune",
+      "industry": "Automotive Forging & Engineering",
+      "segment": "Industrial Heavy Manufacturing (>4,500 staff)",
+      "fit_score": 92,
+      "fit_reasons": [
+        {
+          "reason": "Mandatory annual statutory medical screening required under Factories Act for shop-floor workforce",
+          "evidence_url": "https://www.bharatforge.com/sustainability/occupational-health",
+          "quote": "Our occupational health centers conduct periodic spirometry, audiometry, and heavy-metal blood profiling."
+        }
+      ],
+      "buyer_role": "Head of Environmental Health & Safety (EHS)",
+      "secondary_role": "General Manager - Corporate Human Resources",
+      "outreach_angle": "Offer turnkey mobile audiometry and pulmonary health screening compliant with Maharashtra Factory Rules for their Mundhwa forge shop.",
+      "source_urls": ["https://www.bharatforge.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:18+05:30"
+    },
+    {
+      "lead_id": "ld_corp_03",
+      "run_id": "run_20261017_diag91",
+      "company": "Cybage Software",
+      "website": "https://www.cybage.com",
+      "domain": "cybage.com",
+      "location": "Kalyani Nagar, Pune",
+      "industry": "Digital Product Engineering",
+      "segment": "Mid-Large Tech Enterprise (2,800 staff)",
+      "fit_score": 89,
+      "fit_reasons": [
+        {
+          "reason": "Rolled out comprehensive 2026 hybrid workplace wellness benefit program",
+          "evidence_url": "https://www.cybage.com/life-at-cybage/wellness",
+          "quote": "Encouraging annual preventive diagnostics and stress management consultations across our Pune campuses."
+        }
+      ],
+      "buyer_role": "Head of People & Culture",
+      "secondary_role": "Employee Benefits Director",
+      "outreach_angle": "Pitch an on-site weekend executive wellness lounge with rapid lipid and thyroid panels that integrate with their employee health app.",
+      "source_urls": ["https://www.cybage.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:20+05:30"
+    },
+    {
+      "lead_id": "ld_corp_04",
+      "run_id": "run_20261017_diag91",
+      "company": "Praj Industries",
+      "website": "https://www.praj.net",
+      "domain": "praj.net",
+      "location": "Hinjawadi Phase 2, Pune",
+      "industry": "Bio-energy & Process Engineering",
+      "segment": "Clean-tech Engineering (1,400 staff)",
+      "fit_score": 87,
+      "fit_reasons": [
+        {
+          "reason": "ISO 45001 certification audit cycle scheduled with employee medical compliance targets",
+          "evidence_url": "https://www.praj.net/sustainability-governance",
+          "quote": "Rigorous surveillance of employee occupational biomarkers in our R&D matrix."
+        }
+      ],
+      "buyer_role": "VP - Human Capital Management",
+      "secondary_role": "Corporate Safety Officer",
+      "outreach_angle": "Position a customized toxicology and ergonomic wellness package designed specifically for bio-engineering lab scientists and R&D staff.",
+      "source_urls": ["https://www.praj.net"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:24+05:30"
+    },
+    {
+      "lead_id": "ld_corp_05",
+      "run_id": "run_20261017_diag91",
+      "company": "Tata AutoComp Systems",
+      "website": "https://www.tataautocomp.com",
+      "domain": "tataautocomp.com",
+      "location": "Bhosari & Chakan, Pune",
+      "industry": "Automotive Components",
+      "segment": "Tier 1 Auto Supplier (>3,800 staff)",
+      "fit_score": 86,
+      "fit_reasons": [
+        {
+          "reason": "14 manufacturing plants across Maharashtra requiring synchronized annual checkups",
+          "evidence_url": "https://www.tataautocomp.com/operations/pune-cluster",
+          "quote": "Standardizing worker health surveillance across all Chakan EV component assembly lines."
+        }
+      ],
+      "buyer_role": "Head - Central Corporate HR",
+      "secondary_role": "Plant Admin Head (Chakan Unit)",
+      "outreach_angle": "Present unified multi-plant medical camp logistics with centralized dashboard analytics for tracking absenteeism risk across Chakan units.",
+      "source_urls": ["https://www.tataautocomp.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:27+05:30"
+    },
+    {
+      "lead_id": "ld_corp_06",
+      "run_id": "run_20261017_diag91",
+      "company": "Persistent Systems",
+      "website": "https://www.persistent.com",
+      "domain": "persistent.com",
+      "location": "Senapati Bapat Road, Pune",
+      "industry": "Cloud & AI Software",
+      "segment": "Global Tech Services (>10,000 staff)",
+      "fit_score": 85,
+      "fit_reasons": [
+        {
+          "reason": "Mandated annual health screen subsidy as part of corporate wellness scorecards",
+          "evidence_url": "https://www.persistent.com/careers/benefits-wellness",
+          "quote": "Offering 100% subsidized annual wellness blood profiling for employees and eligible family dependants."
+        }
+      ],
+      "buyer_role": "Global Head of Total Rewards & Benefits",
+      "secondary_role": "Director - Pune Facilities & Admin",
+      "outreach_angle": "Deliver a frictionless 5-day on-campus diagnostics fair with digital QR registration to maximize screening adoption among hybrid staff.",
+      "source_urls": ["https://www.persistent.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:30+05:30"
+    },
+    {
+      "lead_id": "ld_corp_07",
+      "run_id": "run_20261017_diag91",
+      "company": "Finolex Cables",
+      "website": "https://www.finolex.com",
+      "domain": "finolex.com",
+      "location": "Pimpri, Pune",
+      "industry": "Electrical Manufacturing",
+      "segment": "Industrial Cables & PVC (2,200 staff)",
+      "fit_score": 83,
+      "fit_reasons": [
+        {
+          "reason": "High-risk cable extrusion and PVC chemical compounding workforce requiring routine lead/solvent blood checks",
+          "evidence_url": "https://www.finolex.com/sustainability/ehs-metrics",
+          "quote": "Conducting statutory bi-annual medical checks for all chemical and cable extrusion operators."
+        }
+      ],
+      "buyer_role": "Head of Personnel & Industrial Relations",
+      "secondary_role": "Chief Medical Officer (Factory Clinic)",
+      "outreach_angle": "Emphasize NABL-accredited heavy metals analysis and automated compliance reporting direct to the Factory Inspectorate.",
+      "source_urls": ["https://www.finolex.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:34+05:30"
+    },
+    {
+      "lead_id": "ld_corp_08",
+      "run_id": "run_20261017_diag91",
+      "company": "Thermax Limited",
+      "website": "https://www.thermaxglobal.com",
+      "domain": "thermaxglobal.com",
+      "location": "Chinchwad, Pune",
+      "industry": "Energy & Environment Solutions",
+      "segment": "Heavy Capital Goods (3,400 staff)",
+      "fit_score": 82,
+      "fit_reasons": [
+        {
+          "reason": "New boiler manufacturing facility expansion with strict occupational audiometry mandates",
+          "evidence_url": "https://www.thermaxglobal.com/corporate-governance/safety",
+          "quote": "Zero harm policy includes thorough preventive and annual physiological screening for boiler assembly crews."
+        }
+      ],
+      "buyer_role": "Executive VP - Human Resources",
+      "secondary_role": "General Manager - EHS & Plant Administration",
+      "outreach_angle": "Propose soundproof mobile audiometry testing van deployment at the Chinchwad gate for rapid shift-change worker testing.",
+      "source_urls": ["https://www.thermaxglobal.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:37+05:30"
+    },
+    {
+      "lead_id": "ld_corp_09",
+      "run_id": "run_20261017_diag91",
+      "company": "Bajaj Auto Limited",
+      "website": "https://www.bajajauto.com",
+      "domain": "bajajauto.com",
+      "location": "Akurdi & Waluj, Pune/Aurangabad",
+      "industry": "Automotive 2W/3W OEM",
+      "segment": "Automotive Mega Enterprise (>8,000 staff)",
+      "fit_score": 81,
+      "fit_reasons": [
+        {
+          "reason": "Massive manufacturing shift deployment requiring bulk vision, audiogram, and pulmonary screening",
+          "evidence_url": "https://www.bajajauto.com/sustainability/social",
+          "quote": "Annual comprehensive medical exams conducted for all unionized and contract assembly workforce."
+        }
+      ],
+      "buyer_role": "Head of Industrial Relations & Employee Welfare",
+      "secondary_role": "Chief Occupational Health Officer",
+      "outreach_angle": "Offer high-throughput multi-station camp capable of processing 400 technicians per 8-hour shift without disrupting assembly lines.",
+      "source_urls": ["https://www.bajajauto.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:40+05:30"
+    },
+    {
+      "lead_id": "ld_corp_10",
+      "run_id": "run_20261017_diag91",
+      "company": "Kirloskar Brothers Limited",
+      "website": "https://www.kirloskarpumps.com",
+      "domain": "kirloskarpumps.com",
+      "location": "Kirloskarvadi & Baner, Pune",
+      "industry": "Pump & Valve Engineering",
+      "segment": "Engineering Machinery (2,100 staff)",
+      "fit_score": 79,
+      "fit_reasons": [
+        {
+          "reason": "Foundry and metal casting units in Maharashtra subject to strict silicosis prevention medical audits",
+          "evidence_url": "https://www.kirloskarpumps.com/sustainability/safety-policy",
+          "quote": "Periodic chest X-ray and spirometry screening mandatory across foundry operations."
+        }
+      ],
+      "buyer_role": "Head of Corporate HR & Administration",
+      "secondary_role": "Senior Manager - Safety & Health",
+      "outreach_angle": "Highlight digital chest radiography and ILO-compliant pneumoconiosis reporting for foundry employees.",
+      "source_urls": ["https://www.kirloskarpumps.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:43+05:30"
+    },
+    {
+      "lead_id": "ld_corp_11",
+      "run_id": "run_20261017_diag91",
+      "company": "Zensar Technologies",
+      "website": "https://www.zensar.com",
+      "domain": "zensar.com",
+      "location": "Kharadi, Pune",
+      "industry": "IT & Next-Gen Services",
+      "segment": "Mid-tier IT Exporter (4,200 staff)",
+      "fit_score": 78,
+      "fit_reasons": [
+        {
+          "reason": "New Kharadi campus wellness policy focusing on sedentary lifestyle risks and executive diagnostics",
+          "evidence_url": "https://www.zensar.com/careers/employee-wellbeing",
+          "quote": "Quarterly wellness drives targeting ergonomic and metabolic indicators for technology associates."
+        }
+      ],
+      "buyer_role": "VP - Talent Engagement & Benefits",
+      "secondary_role": "Facilities Lead - Kharadi Campus",
+      "outreach_angle": "Promote executive metabolic risk mapping (HbA1c, Vitamin D/B12, lipid panels) with confidential online health reports.",
+      "source_urls": ["https://www.zensar.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:45+05:30"
+    },
+    {
+      "lead_id": "ld_corp_12",
+      "run_id": "run_20261017_diag91",
+      "company": "Alfa Laval India",
+      "website": "https://www.alfalaval.in",
+      "domain": "alfalaval.in",
+      "location": "Dapodi, Pune",
+      "industry": "Heat Transfer & Separation Engineering",
+      "segment": "MNC Engineering Sub (1,200 staff)",
+      "fit_score": 77,
+      "fit_reasons": [
+        {
+          "reason": "European parent health audit requiring strict annual physical and laboratory benchmarks",
+          "evidence_url": "https://www.alfalaval.in/about-us/sustainability",
+          "quote": "Maintaining international standard occupational hygiene and preventive healthcare audits."
+        }
+      ],
+      "buyer_role": "Head - HR India & South Asia",
+      "secondary_role": "EHS Compliance Officer",
+      "outreach_angle": "Present ISO-certified lab standards and English-language health trend dashboards tailored for MNC reporting.",
+      "source_urls": ["https://www.alfalaval.in"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:48+05:30"
+    },
+    {
+      "lead_id": "ld_corp_13",
+      "run_id": "run_20261017_diag91",
+      "company": "Forbes Marshall",
+      "website": "https://www.forbesmarshall.com",
+      "domain": "forbesmarshall.com",
+      "location": "Chakan MIDC, Pune",
+      "industry": "Process Efficiency & Steam Engineering",
+      "segment": "Family-led Industrial Engineering (1,800 staff)",
+      "fit_score": 76,
+      "fit_reasons": [
+        {
+          "reason": "Consistently awarded Great Place to Work with flagship preventative health camp traditions",
+          "evidence_url": "https://www.forbesmarshall.com/about-us/people-culture",
+          "quote": "Family health benefits and annual comprehensive screening for all shop and office members."
+        }
+      ],
+      "buyer_role": "Director - Human Resources",
+      "secondary_role": "Wellness & Community Lead",
+      "outreach_angle": "Pitch an integrated family wellness add-on where employees can book home sample collection for parents at discounted group rates.",
+      "source_urls": ["https://www.forbesmarshall.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:50+05:30"
+    },
+    {
+      "lead_id": "ld_corp_14",
+      "run_id": "run_20261017_diag91",
+      "company": "Cummins India",
+      "website": "https://www.cummins.com/en/in",
+      "domain": "cummins.com",
+      "location": "Balewadi & Kothrud, Pune",
+      "industry": "Diesel Engines & Power Gen",
+      "segment": "MNC Manufacturing Leader (>6,000 staff)",
+      "fit_score": 75,
+      "fit_reasons": [
+        {
+          "reason": "Extensive manufacturing plants in Kothrud and Phaltan needing synchronized bi-annual fitness certifications",
+          "evidence_url": "https://www.cummins.com/en/in/sustainability/health-safety",
+          "quote": "Robust occupational health programs prioritizing preventive cardiac care and vision testing."
+        }
+      ],
+      "buyer_role": "Leader - Health, Safety & Environment (India ABO)",
+      "secondary_role": "Corporate Benefits Manager",
+      "outreach_angle": "Align with their global 'Live Well Cummins' initiative by providing automated biometric screening kiosks on site.",
+      "source_urls": ["https://www.cummins.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:53+05:30"
+    },
+    {
+      "lead_id": "ld_corp_15",
+      "run_id": "run_20261017_diag91",
+      "company": "Bekaert Industries India",
+      "website": "https://www.bekaert.com",
+      "domain": "bekaert.com",
+      "location": "Ranjangaon MIDC, Pune",
+      "industry": "Steel Wire Transformation & Coating",
+      "segment": "Industrial Materials (850 staff)",
+      "fit_score": 74,
+      "fit_reasons": [
+        {
+          "reason": "Wire drawing processes involve acid pickling and heavy machinery noise requiring specialized medical surveillance",
+          "evidence_url": "https://www.bekaert.com/en/sustainability/health-and-safety",
+          "quote": "Zero harm culture with compulsory biological exposure screening."
+        }
+      ],
+      "buyer_role": "Plant HR Manager",
+      "secondary_role": "Safety Incharge (Ranjangaon Plant)",
+      "outreach_angle": "Offer complete Factory Form 32/33 medical certification paperwork generation to save HR admin hours during factory inspections.",
+      "source_urls": ["https://www.bekaert.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:55+05:30"
+    },
+    {
+      "lead_id": "ld_corp_16",
+      "run_id": "run_20261017_diag91",
+      "company": "Eaton India Innovation Center",
+      "website": "https://www.eaton.com/in",
+      "domain": "eaton.com",
+      "location": "Magarpatta City, Pune",
+      "industry": "Power Management & R&D",
+      "segment": "Engineering R&D Center (2,500 staff)",
+      "fit_score": 73,
+      "fit_reasons": [
+        {
+          "reason": "Magarpatta technology center hosting massive corporate wellness month every November",
+          "evidence_url": "https://www.eaton.com/in/en-us/company/careers/culture.html",
+          "quote": "Annual health fairs featuring comprehensive preventive blood diagnostics."
+        }
+      ],
+      "buyer_role": "Head of Talent Management & Wellbeing",
+      "secondary_role": "Facilities Lead - Magarpatta",
+      "outreach_angle": "Schedule a turnkey 3-day health camp inside Tower 4 with 10 phlebotomy bays to clear 1,200 employees swiftly.",
+      "source_urls": ["https://www.eaton.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:47:58+05:30"
+    },
+    {
+      "lead_id": "ld_corp_17",
+      "run_id": "run_20261017_diag91",
+      "company": "Sandvik Coromant India",
+      "website": "https://www.sandvik.coromant.com",
+      "domain": "sandvik.coromant.com",
+      "location": "Dapodi, Pune",
+      "industry": "Machining & Cutting Tools",
+      "segment": "High-Precision Tooling (900 staff)",
+      "fit_score": 71,
+      "fit_reasons": [
+        {
+          "reason": "Tungsten carbide manufacturing requiring periodic cobalt and lung function assessment",
+          "evidence_url": "https://www.sandvik.coromant.com/en-gb/aboutus/sustainability",
+          "quote": "Continuous occupational health monitoring for metallurgy workers."
+        }
+      ],
+      "buyer_role": "Manager - Human Resources",
+      "secondary_role": "EHS Lead",
+      "outreach_angle": "Specialized serum cobalt/tungsten monitoring and digital spirometry with instant doctor consultation on-site.",
+      "source_urls": ["https://www.sandvik.coromant.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:00+05:30"
+    },
+    {
+      "lead_id": "ld_corp_18",
+      "run_id": "run_20261017_diag91",
+      "company": "Gestamp Automotive India",
+      "website": "https://www.gestamp.com",
+      "domain": "gestamp.com",
+      "location": "Chakan MIDC Phase 2, Pune",
+      "industry": "Automotive Metal Stamping",
+      "segment": "Tier 1 Structural Auto (750 staff)",
+      "fit_score": 69,
+      "fit_reasons": [
+        {
+          "reason": "Hot stamping and robotic welding line operators needing routine ergonomic and hearing evaluations",
+          "evidence_url": "https://www.gestamp.com/sustainability/people",
+          "quote": "Preventing occupational hearing impairment through rigorous testing protocols."
+        }
+      ],
+      "buyer_role": "Head - Human Resources (India)",
+      "secondary_role": "Plant Safety Specialist",
+      "outreach_angle": "Deploy mobile audiometric testing chamber directly to Chakan plant gate during operator shift changeover.",
+      "source_urls": ["https://www.gestamp.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:02+05:30"
+    },
+    {
+      "lead_id": "ld_corp_19",
+      "run_id": "run_20261017_diag91",
+      "company": "Lear Corporation India",
+      "website": "https://www.lear.com",
+      "domain": "lear.com",
+      "location": "Bhosari, Pune",
+      "industry": "Automotive Seating & Electrical",
+      "segment": "Auto Systems Supplier (1,100 staff)",
+      "fit_score": 68,
+      "fit_reasons": [
+        {
+          "reason": "High repetitive-motion assembly operations requiring musculoskeletal and general wellness checks",
+          "evidence_url": "https://www.lear.com/sustainability",
+          "quote": "Focusing on preventive workplace health surveillance across Indian assembly plants."
+        }
+      ],
+      "buyer_role": "Director - Human Resources India",
+      "secondary_role": "Plant Operations Manager",
+      "outreach_angle": "Pair annual blood diagnostics with an ergonomic posture screening seminar for seat assembly operators.",
+      "source_urls": ["https://www.lear.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:04+05:30"
+    },
+    {
+      "lead_id": "ld_corp_20",
+      "run_id": "run_20261017_diag91",
+      "company": "SKF India",
+      "website": "https://www.skf.com/in",
+      "domain": "skf.com",
+      "location": "Chinchwad, Pune",
+      "industry": "Bearings & Seal Manufacturing",
+      "segment": "Precision Machinery (>2,000 staff)",
+      "fit_score": 67,
+      "fit_reasons": [
+        {
+          "reason": "Long-established industrial manufacturing facility with large veteran workforce needing annual cardiac & diabetic screenings",
+          "evidence_url": "https://www.skf.com/in/organisation/sustainability",
+          "quote": "Comprehensive wellness screening and annual physical evaluations for manufacturing workforce."
+        }
+      ],
+      "buyer_role": "Head - Employee Welfare & Health",
+      "secondary_role": "HR Business Partner",
+      "outreach_angle": "Offer specialized 'Age 40+' executive screening package with resting ECG, lipid ratio, and carotid risk scoring.",
+      "source_urls": ["https://www.skf.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:06+05:30"
+    },
+    {
+      "lead_id": "ld_corp_21",
+      "run_id": "run_20261017_diag91",
+      "company": "Kirloskar Oil Engines Limited (KOEL)",
+      "website": "https://www.koel.co.in",
+      "domain": "koel.co.in",
+      "location": "Khadki, Pune",
+      "industry": "Diesel Engines & Gensets",
+      "segment": "Power Equipment Manufacturing (1,600 staff)",
+      "fit_score": 66,
+      "fit_reasons": [
+        {
+          "reason": "Engine testing cell technicians exposed to diesel emissions and noise requiring periodic health profiling",
+          "evidence_url": "https://www.koel.co.in/sustainability/occupational-health",
+          "quote": "Periodic spirometry, vision, and audiogram testing for test cell engineers."
+        }
+      ],
+      "buyer_role": "VP - Human Capital",
+      "secondary_role": "Senior Manager - EHS",
+      "outreach_angle": "Provide OSHA and Factory Act compliant pulmonary function tests and heavy metal screening.",
+      "source_urls": ["https://www.koel.co.in"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:08+05:30"
+    },
+    {
+      "lead_id": "ld_corp_22",
+      "run_id": "run_20261017_diag91",
+      "company": "Wilo Mather and Platt Pumps",
+      "website": "https://wilo.com/in/en",
+      "domain": "wilo.com",
+      "location": "Chinchwad & Kolhapur, Pune",
+      "industry": "Industrial Pump Systems",
+      "segment": "Pumping Equipment (800 staff)",
+      "fit_score": 65,
+      "fit_reasons": [
+        {
+          "reason": "Foundry and fabrication units requiring statutory Form 32 certificate renewals every 12 months",
+          "evidence_url": "https://wilo.com/in/en/About-Wilo/Sustainability",
+          "quote": "Committed to workplace wellbeing and comprehensive health evaluations."
+        }
+      ],
+      "buyer_role": "Head of HR & Admin",
+      "secondary_role": "Plant Safety Manager",
+      "outreach_angle": "Fast-track statutory health clearance with certified certifying surgeon endorsement.",
+      "source_urls": ["https://wilo.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:10+05:30"
+    },
+    {
+      "lead_id": "ld_corp_23",
+      "run_id": "run_20261017_diag91",
+      "company": "Wilhelmsen Port Services India",
+      "website": "https://www.wilhelmsen.com",
+      "domain": "wilhelmsen.com",
+      "location": "CBD Belapur & Pune tech office",
+      "industry": "Maritime Logistics & Tech",
+      "segment": "Global Logistics (450 staff)",
+      "fit_score": 63,
+      "fit_reasons": [
+        {
+          "reason": "Maritime technical support staff requiring standard offshore and international fitness screening",
+          "evidence_url": "https://www.wilhelmsen.com/sustainability/people-safety",
+          "quote": "Maintaining international fitness standards and annual checkup coverage."
+        }
+      ],
+      "buyer_role": "Manager - HR India",
+      "secondary_role": "Operations Superintendent",
+      "outreach_angle": "Provide DG Shipping-compliant medical certifications and pre-employment packages.",
+      "source_urls": ["https://www.wilhelmsen.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:12+05:30"
+    },
+    {
+      "lead_id": "ld_corp_24",
+      "run_id": "run_20261017_diag91",
+      "company": "Varian Medical Systems India",
+      "website": "https://www.varian.com",
+      "domain": "varian.com",
+      "location": "Magarpatta Cybercity, Pune",
+      "industry": "Oncology Software & Medical Devices",
+      "segment": "Healthcare Technology (600 staff)",
+      "fit_score": 62,
+      "fit_reasons": [
+        {
+          "reason": "High-value healthcare tech team emphasizing preventive cancer awareness and biometric screening",
+          "evidence_url": "https://www.varian.com/about-varian/culture",
+          "quote": "Encouraging associates to lead the way with annual wellness testing and preventive screenings."
+        }
+      ],
+      "buyer_role": "Lead - People Operations",
+      "secondary_role": "India Site Facilities Manager",
+      "outreach_angle": "Partner for Breast Cancer and Prostate screening awareness month with on-premise blood biomarkers.",
+      "source_urls": ["https://www.varian.com"],
+      "verified": true,
+      "created_at": "2026-10-17T09:48:14+05:30"
+    }
+  ]
+}

@@ -1,0 +1,567 @@
+{
+  "run_id": "run_20261016_aqua22",
+  "session_id": "ses_20261016_aqua22",
+  "status": "done",
+  "stage": "done",
+  "stages": ["intake", "kb", "research", "extraction", "qualification", "buyer", "angle", "saving", "done"],
+  "progress": 100,
+  "started_at": "2026-10-16T14:10:00+05:30",
+  "finished_at": "2026-10-16T14:13:22+05:30",
+  "airtable_url": "https://airtable.com/appINyraLeadGen/tblLeads/viwIndustrialRO?filter=run_20261016_aqua22",
+  "summary": "Discovered 22 major dairy processing units, craft breweries, and beverage bottling plants in Maharashtra actively expanding capacity or upgrading MPCB effluent compliance. Target buyers: Plant Head / Engineering Chief.",
+  "counts": {
+    "candidates": 76,
+    "verified": 48,
+    "qualified": 22
+  },
+  "error": null,
+  "profile": {
+    "company_name": "JalShakti Water Technologies",
+    "offer": "Turnkey Industrial Reverse Osmosis (RO) Plants (20 to 100 KLD), Ultrafiltration & Zero Liquid Discharge (ZLD) Systems",
+    "target_market": "Commercial dairies, fruit pulp & juice processors, beverage bottlers, and breweries across Maharashtra industrial clusters",
+    "geography": "Maharashtra, India (Pune, Kolhapur, Sangli, Nashik, Baramati)",
+    "icp_hypothesis": "Processing units handling >50,000 L/day raw liquids with high TDS borehole feed water facing MPCB water recycling norms or boiler scale issues",
+    "differentiators": ["High-recovery energy saving membranes (up to 85% recovery)", "Automated CIP cleaning systems", "Turnkey install with guaranteed TDS <30 ppm"],
+    "exclusions": ["Residential RO water purifier brands", "Municipal water supply boards", "Bottled mineral water retail distributors"]
+  },
+  "log": [
+    { "t": "2026-10-16T14:10:04+05:30", "msg": "Intake completed: Free-text input parsed, normalized into dairy & beverage processing profile" },
+    { "t": "2026-10-16T14:10:18+05:30", "msg": "KB builder assembled 18 queries targeting Baramati, Kolhapur, and Nashik food processing belts" },
+    { "t": "2026-10-16T14:10:45+05:30", "msg": "SERP engine returned 76 manufacturing candidates in western Maharashtra" },
+    { "t": "2026-10-16T14:11:30+05:30", "msg": "Web crawler verified 48 functional operational plant websites" },
+    { "t": "2026-10-16T14:12:15+05:30", "msg": "Qualification agent filtered 22 facilities with active liquid processing needs" },
+    { "t": "2026-10-16T14:12:55+05:30", "msg": "Buyer intelligence mapped Plant Engineering and Utility Manager roles" },
+    { "t": "2026-10-16T14:13:18+05:30", "msg": "Generated tailored hook angles referencing boiler feed TDS and CIP wash water recycling" },
+    { "t": "2026-10-16T14:13:22+05:30", "msg": "Airtable synchronisation finalized with 22 lead records" }
+  ],
+  "leads": [
+    {
+      "lead_id": "ld_ro_01",
+      "run_id": "run_20261016_aqua22",
+      "company": "Parag Milk Foods (Gowardhan)",
+      "website": "https://www.paragmilkfoods.com",
+      "domain": "paragmilkfoods.com",
+      "location": "Manchar (Ambegaon), Pune",
+      "industry": "Dairy Processing",
+      "segment": "Large Scale Dairy (>10 Lakh L/Day)",
+      "fit_score": 95,
+      "fit_reasons": [
+        {
+          "reason": "Commissioned expanded whey protein powder processing unit requiring ultra-pure demineralized process water",
+          "evidence_url": "https://www.paragmilkfoods.com/investors/expansion-announcements",
+          "quote": "Scaling our Manchar plant cheese and whey processing facility with advanced clean-in-place water recovery."
+        }
+      ],
+      "buyer_role": "VP - Technical Operations & Plant Engineering",
+      "secondary_role": "General Manager - Utilities & Maintenance",
+      "outreach_angle": "Offer a dedicated 80 KLD high-flux membrane RO system to recover evaporator condensate water and reduce fresh groundwater draw by 40%.",
+      "source_urls": ["https://www.paragmilkfoods.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:20+05:30"
+    },
+    {
+      "lead_id": "ld_ro_02",
+      "run_id": "run_20261016_aqua22",
+      "company": "Schreiber Dynamix Dairies",
+      "website": "https://www.schreiberfoods.com",
+      "domain": "schreiberfoods.com",
+      "location": "Baramati MIDC, Pune",
+      "industry": "Dairy & Aseptic Packaging",
+      "segment": "Contract Dairy Processing (8 Lakh L/Day)",
+      "fit_score": 93,
+      "fit_reasons": [
+        {
+          "reason": "Supplies international brands with rigorous microbial and chemical water standards",
+          "evidence_url": "https://www.schreiberdynamix.com/sustainability/water-conservation",
+          "quote": "Strict water quality controls for aseptic packaging and clean utility boilers in our Baramati plant."
+        }
+      ],
+      "buyer_role": "Head of Engineering & Projects",
+      "secondary_role": "Utility Operations Manager",
+      "outreach_angle": "Introduce double-pass RO skid with sanitary stainless steel 316L piping built specifically for aseptic beverage lines.",
+      "source_urls": ["https://www.schreiberfoods.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:23+05:30"
+    },
+    {
+      "lead_id": "ld_ro_03",
+      "run_id": "run_20261016_aqua22",
+      "company": "Katraj Dairy (Pune District Co-operative)",
+      "website": "https://www.katrajdairy.com",
+      "domain": "katrajdairy.com",
+      "location": "Katraj, Pune",
+      "industry": "Co-operative Dairy & Ice Cream",
+      "segment": "Regional Dairy Co-op (3 Lakh L/Day)",
+      "fit_score": 90,
+      "fit_reasons": [
+        {
+          "reason": "Expanding ice-cream and pasteurization capacity with high TDS municipal/well mix water supply",
+          "evidence_url": "https://www.katrajdairy.com/infrastructure",
+          "quote": "Modernizing our refrigeration and boiler feed water purification plant to meet upgraded MPCB norms."
+        }
+      ],
+      "buyer_role": "General Manager - Plant & Machinery",
+      "secondary_role": "Chief Chemist / Quality Assurance Head",
+      "outreach_angle": "Show how an automated 50 KLD RO system will eliminate scale in their pasteurization heat exchangers and save ₹14L in descaling downtime.",
+      "source_urls": ["https://www.katrajdairy.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:26+05:30"
+    },
+    {
+      "lead_id": "ld_ro_04",
+      "run_id": "run_20261016_aqua22",
+      "company": "Sula Vineyards Limited",
+      "website": "https://www.sulavineyards.com",
+      "domain": "sulavineyards.com",
+      "location": "Gangapur Dam, Nashik",
+      "industry": "Winery & Hospitality",
+      "segment": "Commercial Winery (>10 Million Bottles)",
+      "fit_score": 88,
+      "fit_reasons": [
+        {
+          "reason": "Wine bottling lines require strict low-hardness water to prevent precipitate in bottled vintage wines",
+          "evidence_url": "https://www.sulavineyards.com/sustainability.php",
+          "quote": "100% wastewater recycling and precision water purification for cellar washings and barrel sanitization."
+        }
+      ],
+      "buyer_role": "Director - Cellar Operations & Engineering",
+      "secondary_role": "Head of Viticulture & Facility Services",
+      "outreach_angle": "Propose precision low-mineral RO setup for bottle rinsing and steam generation that prevents mineral spotting on glass packaging.",
+      "source_urls": ["https://www.sulavineyards.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:29+05:30"
+    },
+    {
+      "lead_id": "ld_ro_05",
+      "run_id": "run_20261016_aqua22",
+      "company": "Chitale Bandhu Mithaiwale & Dairy",
+      "website": "https://www.chitale.com",
+      "domain": "chitale.com",
+      "location": "Bhilawadi, Sangli",
+      "industry": "Automated Sweet & Dairy Processing",
+      "segment": "High-Volume Food & Dairy (4 Lakh L/Day)",
+      "fit_score": 87,
+      "fit_reasons": [
+        {
+          "reason": "Automated Gulab Jamun, Shrikhand, and condensed milk lines with heavy continuous steam requirements",
+          "evidence_url": "https://www.chitale.com/innovation/bhiwadi-automation",
+          "quote": "Ultra-modern automated sweet manufacturing hub utilizing closed-loop water circulation."
+        }
+      ],
+      "buyer_role": "Head of Engineering & Automation",
+      "secondary_role": "Plant Operations Director",
+      "outreach_angle": "Help eliminate boiler blow-down water waste with a 60 KLD RO pre-treatment system tailored for their Bhilawadi steam generators.",
+      "source_urls": ["https://www.chitale.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:32+05:30"
+    },
+    {
+      "lead_id": "ld_ro_06",
+      "run_id": "run_20261016_aqua22",
+      "company": "Gokul Dairy (Kolhapur District Co-op)",
+      "website": "https://www.gokulmilk.coop",
+      "domain": "gokulmilk.coop",
+      "location": "Tarabai Park & Gokul Shirgaon MIDC, Kolhapur",
+      "industry": "Dairy Products & Milk Processing",
+      "segment": "Mega Dairy (>12 Lakh L/Day)",
+      "fit_score": 86,
+      "fit_reasons": [
+        {
+          "reason": "Major expansion of pouch milk packaging and SMP (Skimmed Milk Powder) plant at Gokul Shirgaon",
+          "evidence_url": "https://www.gokulmilk.coop/plant-capacity",
+          "quote": "Expanding daily handling capacity to 15 lakh liters with upgraded water treatment and effluent plants."
+        }
+      ],
+      "buyer_role": "Chief Engineer / GM Engineering",
+      "secondary_role": "Managing Director's Technical Cell",
+      "outreach_angle": "Present high-efficiency spiral wound RO membranes to purify groundwater with high iron and hardness in Shirgaon MIDC.",
+      "source_urls": ["https://www.gokulmilk.coop"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:36+05:30"
+    },
+    {
+      "lead_id": "ld_ro_07",
+      "run_id": "run_20261016_aqua22",
+      "company": "Frigorifico Allana (Allanasons)",
+      "website": "https://www.allana.com",
+      "domain": "allana.com",
+      "location": "Taloja & Aurangabad, Maharashtra",
+      "industry": "Food Processing & Edible Oils",
+      "segment": "Large Scale Food Processor (>1,500 staff)",
+      "fit_score": 84,
+      "fit_reasons": [
+        {
+          "reason": "Edible oil refining and protein processing requiring demineralized water for vacuum systems",
+          "evidence_url": "https://www.allana.com/sustainability",
+          "quote": "Zero Liquid Discharge commitments across all processing facilities in western India."
+        }
+      ],
+      "buyer_role": "Head of Technical & Central Projects",
+      "secondary_role": "Plant Engineering Lead",
+      "outreach_angle": "Design a high-recovery RO skid with anti-fouling membranes to treat high-COD condensate streams.",
+      "source_urls": ["https://www.allana.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:39+05:30"
+    },
+    {
+      "lead_id": "ld_ro_08",
+      "run_id": "run_20261016_aqua22",
+      "company": "Moonshine Meadery",
+      "website": "https://www.moonshinemeadery.com",
+      "domain": "moonshinemeadery.com",
+      "location": "Pirangut Industrial Area, Pune",
+      "industry": "Craft Mead & Fermented Beverages",
+      "segment": "Fast-Growing Craft Brewery",
+      "fit_score": 82,
+      "fit_reasons": [
+        {
+          "reason": "Mead brewing requires precise water chemistry (balanced mineral profile with zero chlorine/chloramines)",
+          "evidence_url": "https://www.moonshinemeadery.com/our-story",
+          "quote": "Pure spring and treated water profile designed to highlight delicate honey florals."
+        }
+      ],
+      "buyer_role": "Head Brewer & Head of Production",
+      "secondary_role": "Operations Co-Founder",
+      "outreach_angle": "Offer a compact 20 KLD two-stage RO system with mineral re-dosing dosing pumps for consistent brewing water batches.",
+      "source_urls": ["https://www.moonshinemeadery.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:43+05:30"
+    },
+    {
+      "lead_id": "ld_ro_09",
+      "run_id": "run_20261016_aqua22",
+      "company": "Kimberly-Clark India (Tissue & Hygiene)",
+      "website": "https://www.kimberly-clark.com/en-in",
+      "domain": "kimberly-clark.com",
+      "location": "Chakan MIDC Phase 2, Pune",
+      "industry": "FMCG Hygiene Products",
+      "segment": "MNC Manufacturer (900 staff)",
+      "fit_score": 81,
+      "fit_reasons": [
+        {
+          "reason": "Water-intensive wet wipes manufacturing requiring pharmacopeia-grade purified water",
+          "evidence_url": "https://www.kimberly-clark.com/en-in/sustainability/water-stewardship",
+          "quote": "State-of-the-art water purification and recycling plant at Pune manufacturing facility."
+        }
+      ],
+      "buyer_role": "Manufacturing Plant Director",
+      "secondary_role": "Engineering & Utilities Lead",
+      "outreach_angle": "Position sanitary EDI + RO water train providing endotoxin-free water for personal care wipes.",
+      "source_urls": ["https://www.kimberly-clark.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:46+05:30"
+    },
+    {
+      "lead_id": "ld_ro_10",
+      "run_id": "run_20261016_aqua22",
+      "company": "Great State Aleworks",
+      "website": "https://www.greatstatealeworks.com",
+      "domain": "greatstatealeworks.com",
+      "location": "Wadgaon Sheri, Pune",
+      "industry": "Craft Beer Brewery",
+      "segment": "Artisanal Brewery (60,000 L/Month)",
+      "fit_score": 79,
+      "fit_reasons": [
+        {
+          "reason": "Expansion into canned distribution requiring deaerated and RO-purified liquor",
+          "evidence_url": "https://www.greatstatealeworks.com/brewery",
+          "quote": "Strict brewing chemistry and automated keg washing water circuits."
+        }
+      ],
+      "buyer_role": "Master Brewer / Production Head",
+      "secondary_role": "Founder / Operations Lead",
+      "outreach_angle": "Install a skid-mounted 15 KLD RO unit with carbon polishing filter to remove municipal trihalomethanes.",
+      "source_urls": ["https://www.greatstatealeworks.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:49+05:30"
+    },
+    {
+      "lead_id": "ld_ro_11",
+      "run_id": "run_20261016_aqua22",
+      "company": "Mapro Foods Private Limited",
+      "website": "https://www.mapro.com",
+      "domain": "mapro.com",
+      "location": "Wai & Shendurjane, Satara",
+      "industry": "Fruit Jams, Syrups & Confectionery",
+      "segment": "Specialty Food Brand (1,200 staff)",
+      "fit_score": 78,
+      "fit_reasons": [
+        {
+          "reason": "Syrup production and fruit pasteurization requires low alkalinity water to prevent flavor drift",
+          "evidence_url": "https://www.mapro.com/about/manufacturing",
+          "quote": "Pristine processing standards and sustainable water management across Satara facilities."
+        }
+      ],
+      "buyer_role": "Head - Technical Operations (Wai Unit)",
+      "secondary_role": "Plant QA Manager",
+      "outreach_angle": "Offer high-recovery Brackish Water RO skid with automatic conductivity shut-off valves for jam batch preparation.",
+      "source_urls": ["https://www.mapro.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:52+05:30"
+    },
+    {
+      "lead_id": "ld_ro_12",
+      "run_id": "run_20261016_aqua22",
+      "company": "Vikas Sahakari Dudh Utpadak (Vikas Dairy)",
+      "website": "https://www.vikasdairy.com",
+      "domain": "vikasdairy.com",
+      "location": "Buldhana & Akola region, Maharashtra",
+      "industry": "Co-op Dairy Processing",
+      "segment": "Regional Dairy (1.5 Lakh L/Day)",
+      "fit_score": 77,
+      "fit_reasons": [
+        {
+          "reason": "Hard borewell water causing scaling in pouch packing cooling tunnels and boiler tubes",
+          "evidence_url": "https://www.vikasdairy.com/infrastructure",
+          "quote": "Modernizing milk chilling centers and centralized boiler operations."
+        }
+      ],
+      "buyer_role": "General Manager - Operations",
+      "secondary_role": "Plant Maintenance Engineer",
+      "outreach_angle": "Deploy a robust 30 KLD RO plant designed for high-salinity Vidarbha groundwater with anti-scalant dosing.",
+      "source_urls": ["https://www.vikasdairy.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:55+05:30"
+    },
+    {
+      "lead_id": "ld_ro_13",
+      "run_id": "run_20261016_aqua22",
+      "company": "Radico Khaitan (Aurangabad Distillery)",
+      "website": "https://www.radicokhaitan.com",
+      "domain": "radicokhaitan.com",
+      "location": "Shendra MIDC, Chhatrapati Sambhajinagar",
+      "industry": "Distillery & Alcoholic Beverages",
+      "segment": "Large Spirits Manufacturer",
+      "fit_score": 76,
+      "fit_reasons": [
+        {
+          "reason": "Zero Liquid Discharge compliance mandate from MPCB for distillery spent wash condensate",
+          "evidence_url": "https://www.radicokhaitan.com/sustainability",
+          "quote": "State-of-the-art condensate polishing units and RO systems for complete water loop closure."
+        }
+      ],
+      "buyer_role": "VP - Distillery Operations",
+      "secondary_role": "Head of Environmental Compliance",
+      "outreach_angle": "Showcase energy-efficient ZLD RO stage concentrating MEE condensate with low specific power consumption.",
+      "source_urls": ["https://www.radicokhaitan.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:12:58+05:30"
+    },
+    {
+      "lead_id": "ld_ro_14",
+      "run_id": "run_20261016_aqua22",
+      "company": "Bector's Food Specialities (Cremica)",
+      "website": "https://www.cremica.com",
+      "domain": "cremica.com",
+      "location": "Khopoli Industrial Area, Raigad",
+      "industry": "Bakery, Biscuits & Condiments",
+      "segment": "Commercial Bakery (600 staff)",
+      "fit_score": 75,
+      "fit_reasons": [
+        {
+          "reason": "Condiment and sauce manufacturing requiring strictly controlled microbial and mineral water",
+          "evidence_url": "https://www.cremica.com/plant-infrastructure",
+          "quote": "Stringent hygiene and multi-barrier water filtration systems in our sauce formulation lines."
+        }
+      ],
+      "buyer_role": "Plant Head - Western Operations",
+      "secondary_role": "Chief Quality Officer",
+      "outreach_angle": "Provide hygienic SS skid with ozone disinfection integration for sauce mixing water.",
+      "source_urls": ["https://www.cremica.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:00+05:30"
+    },
+    {
+      "lead_id": "ld_ro_15",
+      "run_id": "run_20261016_aqua22",
+      "company": "Keventer Agro (Packaged Dairy & Fruit)",
+      "website": "https://www.keventer.com",
+      "domain": "keventer.com",
+      "location": "Dombivli & Thane, Maharashtra",
+      "industry": "Packaged Beverages & Dairy",
+      "segment": "National Food & Beverage",
+      "fit_score": 74,
+      "fit_reasons": [
+        {
+          "reason": "Ultra-High Temperature (UHT) milk packaging requiring continuous pure steam generation",
+          "evidence_url": "https://www.keventer.com/manufacturing",
+          "quote": "Maintaining sterile utility operations for our UHT processing lines."
+        }
+      ],
+      "buyer_role": "General Manager - Engineering",
+      "secondary_role": "Utilities Engineer",
+      "outreach_angle": "Deliver pre-engineered RO + mixed bed polisher delivering conductivity <1.0 µS/cm for pure steam boilers.",
+      "source_urls": ["https://www.keventer.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:03+05:30"
+    },
+    {
+      "lead_id": "ld_ro_16",
+      "run_id": "run_20261016_aqua22",
+      "company": "Rohan Agri Biotech",
+      "website": "https://www.rohangroup.com",
+      "domain": "rohangroup.com",
+      "location": "Kurkumbh MIDC, Pune",
+      "industry": "Bio-fertilizers & Agro Processing",
+      "segment": "Bio-processing Facility (350 staff)",
+      "fit_score": 73,
+      "fit_reasons": [
+        {
+          "reason": "Fermentation bioreactors require chlorine-free, low-TDS water to preserve sensitive microbial strains",
+          "evidence_url": "https://www.rohanagri.com/about/facilities",
+          "quote": "Precise substrate preparation utilizing controlled osmolarity reverse osmosis water."
+        }
+      ],
+      "buyer_role": "Technical Director",
+      "secondary_role": "Bio-Process Engineering Manager",
+      "outreach_angle": "Supply 25 KLD RO unit equipped with automated online conductivity and ORP monitoring.",
+      "source_urls": ["https://www.rohangroup.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:06+05:30"
+    },
+    {
+      "lead_id": "ld_ro_17",
+      "run_id": "run_20261016_aqua22",
+      "company": "Kimirica Hunter International",
+      "website": "https://www.kimirica.com",
+      "domain": "kimirica.com",
+      "location": "Indore & Western Region Factory Hub",
+      "industry": "Luxury Hotel Toiletries & Cosmetics",
+      "segment": "Premium Personal Care (800 staff)",
+      "fit_score": 72,
+      "fit_reasons": [
+        {
+          "reason": "Cosmetic formulation requires demineralized purified water compliant with FDA cosmetic guidelines",
+          "evidence_url": "https://www.kimirica.com/pages/our-manufacturing",
+          "quote": "Zero-touch compounding utilizing USP purified water generated on premises."
+        }
+      ],
+      "buyer_role": "Head of Manufacturing Operations",
+      "secondary_role": "Engineering & Projects Head",
+      "outreach_angle": "Pitch sanitary stainless steel RO system with UV disinfection and continuous recirculation loop.",
+      "source_urls": ["https://www.kimirica.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:09+05:30"
+    },
+    {
+      "lead_id": "ld_ro_18",
+      "run_id": "run_20261016_aqua22",
+      "company": "Kalyani Breweries / United Breweries",
+      "website": "https://www.unitedbreweries.com",
+      "domain": "unitedbreweries.com",
+      "location": "Waluj MIDC, Aurangabad",
+      "industry": "Commercial Brewing",
+      "segment": "Mega Brewery (Kingfisher)",
+      "fit_score": 71,
+      "fit_reasons": [
+        {
+          "reason": "High brewing volume and bottle washing line demanding wastewater recovery to meet local groundwater quotas",
+          "evidence_url": "https://www.unitedbreweries.com/sustainability/water-balancing",
+          "quote": "Circular water balancing targeting 2.8 hectoliters of water per hectoliter of beer."
+        }
+      ],
+      "buyer_role": "Brewery Operations Director",
+      "secondary_role": "Chief Environmental Engineer",
+      "outreach_angle": "Integrate effluent tertiary RO unit to recycle bottle washer final rinse water back into cooling towers.",
+      "source_urls": ["https://www.unitedbreweries.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:12+05:30"
+    },
+    {
+      "lead_id": "ld_ro_19",
+      "run_id": "run_20261016_aqua22",
+      "company": "Sahyadri Agro Processing",
+      "website": "https://www.sahyadrias.com",
+      "domain": "sahyadrias.com",
+      "location": "Mohadi, Nashik",
+      "industry": "Fruit Pulp & Tomato Processing",
+      "segment": "Farmer Producer Co. & Exporter",
+      "fit_score": 70,
+      "fit_reasons": [
+        {
+          "reason": "Tomato paste and fruit puree evaporators generate massive vapor condensate needing recovery",
+          "evidence_url": "https://www.sahyadrias.com/infrastructure.html",
+          "quote": "Solar-driven agro-processing park equipped with advanced industrial water conservation plants."
+        }
+      ],
+      "buyer_role": "VP - Agro Processing & Projects",
+      "secondary_role": "Utilities Incharge",
+      "outreach_angle": "Design condensate polishing RO unit operating at up to 60°C feed water to conserve thermal energy.",
+      "source_urls": ["https://www.sahyadrias.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:15+05:30"
+    },
+    {
+      "lead_id": "ld_ro_20",
+      "run_id": "run_20261016_aqua22",
+      "company": "Keventer Frozen Foods",
+      "website": "https://www.keventerfrozen.com",
+      "domain": "keventerfrozen.com",
+      "location": "MIDC Kurkumbh, Pune",
+      "industry": "Frozen Foods & Ready to Cook",
+      "segment": "Quick Frozen Food Processing",
+      "fit_score": 68,
+      "fit_reasons": [
+        {
+          "reason": "Vegetable blanching and IQF spiral freezers requiring high purity ice making water",
+          "evidence_url": "https://www.keventerfrozen.com/technology",
+          "quote": "Pure filtered water usage across automated vegetable washing and quick freezing."
+        }
+      ],
+      "buyer_role": "Factory Manager",
+      "secondary_role": "Maintenance Lead",
+      "outreach_angle": "Supply 40 KLD RO system to remove hardness and silica that causes white mineral films on IQF produce.",
+      "source_urls": ["https://www.keventerfrozen.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:18+05:30"
+    },
+    {
+      "lead_id": "ld_ro_21",
+      "run_id": "run_20261016_aqua22",
+      "company": "Indrayani Dairy Products",
+      "website": "https://www.indrayanidairy.in",
+      "domain": "indrayanidairy.in",
+      "location": "Shirwal Industrial Zone, Satara",
+      "industry": "Paneer, Ghee & Curd Processing",
+      "segment": "Mid-tier Dairy Unit (75,000 L/Day)",
+      "fit_score": 66,
+      "fit_reasons": [
+        {
+          "reason": "Paneer whey recovery and boiler feedwater suffering from calcium scale in Shirwal zone",
+          "evidence_url": "https://www.indrayanidairy.in/facilities",
+          "quote": "Adopting clean-tech processing and expanding curd packaging facilities."
+        }
+      ],
+      "buyer_role": "Managing Director / Plant Partner",
+      "secondary_role": "Production Supervisor",
+      "outreach_angle": "Compact skid-mounted 25 KLD RO plant with quick 3-day installation to safeguard their new boiler.",
+      "source_urls": ["https://www.indrayanidairy.in"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:20+05:30"
+    },
+    {
+      "lead_id": "ld_ro_22",
+      "run_id": "run_20261016_aqua22",
+      "company": "Kashyap Sweetmeats & Beverage",
+      "website": "https://www.kashyapdairy.com",
+      "domain": "kashyapdairy.com",
+      "location": "Jalgaon MIDC, Maharashtra",
+      "industry": "Packaged Dairy Sweets & Lassi",
+      "segment": "Regional Food Processor (40,000 L/Day)",
+      "fit_score": 65,
+      "fit_reasons": [
+        {
+          "reason": "Groundwater TDS exceeding 1,400 ppm in Jalgaon belt damaging boiler piping and altering lassi taste",
+          "evidence_url": "https://www.kashyapdairy.com/quality",
+          "quote": "Commitment to traditional taste powered by modern food grade hygienic filtration."
+        }
+      ],
+      "buyer_role": "General Manager - Operations",
+      "secondary_role": "Engineering Incharge",
+      "outreach_angle": "Reduce feedwater TDS from 1,400 ppm to <40 ppm with high-rejection brackish water membranes.",
+      "source_urls": ["https://www.kashyapdairy.com"],
+      "verified": true,
+      "created_at": "2026-10-16T14:13:22+05:30"
+    }
+  ]
+}
